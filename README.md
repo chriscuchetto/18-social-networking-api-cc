@@ -4,6 +4,7 @@
 
 This NoSQL challenge features an application where users are able share their thoughts, make a friend list, react to friend's thoughts. The Social Networking API uses Javascript, Node.js, Express.js, MongoDB, and Mongoose. 
 
+
 ##User Story
 
 ```
