@@ -1,4 +1,4 @@
-const User = require('../models/User'); // Reminder: To change video to thoughts, responses to reactions.  Also, to change the model to Thought, Reaction, and User.
+const User = require('../models/User'); // Import the User model from models\User.js
 
 module.exports = { 
   getUsers(req, res) {
