@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const videoRoutes = require('./videoRoutes');
+const videoRoutes = require('./thoughtRoutes');
 const userRoutes = require('./userRoutes');
 
 router.use('/videos', videoRoutes);

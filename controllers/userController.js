@@ -1,6 +1,6 @@
-const User = require('../models/User');
+const User = require('../models/User'); // Reminder: To change video to thoughts, responses to reactions.
 
-module.exports = {
+module.exports = { 
   getUsers(req, res) {
     User.find()
       .then((users) => res.json(users))
