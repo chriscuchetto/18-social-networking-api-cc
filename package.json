@@ -1,8 +1,8 @@
 {
   "name": "18-social-network-api",
   "version": "1.0.1",
-  "description": "Instructor demo for CRUD operations in Mongoose on subdocuments",
-  "main": "index.js",
+  "description": "module 18 homework assignment",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "start": "node index",
