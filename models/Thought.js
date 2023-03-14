@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const Reaction = require('./Reaction');
+const reactionSchema = require('./Reaction');
 const moment = require('moment');
 // Schema to create Post model
 const thoughtSchema = new Schema(
@@ -20,7 +20,7 @@ const thoughtSchema = new Schema(
       required: true,
     },
   
-    reactions: [Reaction.schema],
+    reactions: [reactionSchema],
   },
   {
     toJSON: {
